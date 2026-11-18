@@ -1,12 +1,17 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clipador</title><style>body{font:16px/1.6 system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;color:#1d1d22;background:#fff}h1{color:#7c5cff}h2{margin-top:28px}nav a{margin-right:14px;color:#7c5cff}footer{margin-top:40px;color:#777;font-size:14px}img{border-radius:22px}</style></head><body><nav><a href="index.html">Início</a><a href="termos.html">Termos de Uso</a><a href="privacidade.html">Política de Privacidade</a></nav>
 <img src="icone.png" width="96" height="96" alt="Clipador">
 <h1>Clipador</h1>
-<p>O Clipador é um aplicativo de uso pessoal, executado no computador do próprio criador de conteúdo, que transforma lives e vídeos longos em clipes verticais curtos. Ele transcreve o áudio, sugere os melhores trechos, adiciona legendas e permite que o criador envie os clipes para a <b>própria conta do TikTok</b> como rascunho (caixa de entrada) ou publicação.</p>
-<p lang="en"><i>Clipador is a personal desktop tool that turns long live streams and videos into short vertical clips. It transcribes audio, suggests highlights, adds captions and lets the creator upload the clips to their <b>own TikTok account</b> as drafts (inbox) or posts, using the TikTok Content Posting API.</i></p>
+<p>O Clipador é um aplicativo de uso pessoal, executado no computador do próprio criador de conteúdo, que transforma lives e vídeos longos em clipes verticais curtos. Ele transcreve o áudio, sugere os melhores trechos, adiciona legendas e permite que o criador envie os clipes para a <b>própria conta do TikTok</b> (como rascunho ou publicação) e para o <b>próprio canal do YouTube</b> (como YouTube Shorts).</p>
+<p lang="en"><i>Clipador is a personal desktop tool that turns long live streams and videos into short vertical clips. It transcribes audio, suggests highlights, adds captions and lets the creator upload the clips to their <b>own TikTok account</b> as drafts (inbox) or posts, using the TikTok Content Posting API, and to their <b>own YouTube channel</b> as YouTube Shorts, using the YouTube Data API.</i></p>
 <h2>Como usa o TikTok</h2>
 <ul>
 <li><b>Login Kit</b> (<code>user.info.basic</code>): identificar a conta conectada e mostrar o nome dela no app.</li>
 <li><b>Content Posting API</b> (<code>video.upload</code>, <code>video.publish</code>): enviar os clipes que o próprio usuário escolheu e revisou para a conta dele.</li>
 </ul>
+<h2>Como usa o YouTube</h2>
+<ul>
+<li><b>YouTube Data API</b> (<code>youtube.upload</code>): enviar como Shorts os clipes que o próprio usuário escolheu e revisou para o canal dele.</li>
+<li><code>youtube.readonly</code>: apenas mostrar no app o nome do canal conectado.</li>
+</ul>
 <p>Nenhum vídeo é publicado sem a ação explícita do usuário.</p>
-<footer>Contato: <a href="mailto:SEU_EMAIL">SEU_EMAIL</a></footer></body></html>
+<footer>Contato: <a href="mailto:gustavo.sfva06@gmail.com">gustavo.sfva06@gmail.com</a></footer></body></html>
